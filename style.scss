@@ -212,10 +212,15 @@ a {
 
         &_namber {
             color: #202027;
-            padding-top: 354px;
-            padding-left: 48px;
+            margin-top: 354px;
+            margin-left: 32px;
             font-size: 16px;
             font-weight: 500;
+            border-radius: 52.58px;
+            background: rgb(247, 247, 247);
+            width: 108px;
+            padding: 8px 16px 10px 16px;
+            text-align: center;
         }
 
         &_name {

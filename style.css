@@ -1,0 +1,200 @@
+* {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.header {
+  background-image: url(./img/star1.png), url(./img/star2.png), url(./img/star3.png);
+  background-repeat: no-repeat;
+  background-position: 63px 69px, 100% 0px, calc(100% - 344px) calc(100% - 149px);
+  background-color: #E1FF8F;
+}
+.header__text-big {
+  font-size: 64px;
+  line-height: 78px;
+  color: #202027;
+  padding-top: 196px;
+}
+.header__text-subtitle {
+  font-size: 24px;
+  line-height: 32px;
+  color: #202027;
+  padding-top: 24px;
+  font-weight: 400;
+}
+.header__text-font {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.header__button {
+  background: #202027;
+  border: 1px solid rgb(32, 32, 39);
+  border-radius: 60px;
+  color: #FFFFFF;
+  width: 247px;
+  height: 66px;
+  font-size: 24px;
+  margin-top: 48px;
+  margin-bottom: 246px;
+}
+.header__button:hover {
+  background: white;
+  color: #000000;
+  cursor: pointer;
+}
+
+.scrol-bar {
+  height: 90px;
+  background: #BCEC30;
+  padding: 27px 49px 27px 49px;
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+}
+
+.card-game {
+  background-color: #000000;
+  padding-bottom: 50px;
+  background-image: url(./img/Star4.png), url(./img/star5.png);
+  background-repeat: no-repeat;
+  background-position: 100% 77px, 25px 770px;
+}
+.card-game__text-top {
+  color: white;
+  padding-top: 94px;
+  font-size: 64px;
+  line-height: 78px;
+}
+.card-game__text-susubtitle {
+  color: #FFFFFF;
+  padding-top: 24px;
+  font-size: 24px;
+  line-height: 32px;
+}
+.card-game__card {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  height: 1056px;
+  gap: 32px;
+  padding-top: 72px;
+  width: 1021px;
+}
+.card-game__card_game1 {
+  height: 473px;
+  width: 378px;
+  background-color: #FFFFFF;
+  grid-column: span 4;
+  border-radius: 30px;
+  background-image: url(./img/Game1.png);
+  background-position: 100% calc(100% - 159px);
+  background-repeat: no-repeat;
+}
+.card-game__card_game1:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.card-game__card_game2 {
+  height: 512px;
+  width: 378px;
+  background-color: #FFFFFF;
+  grid-column: span 4;
+  border-radius: 30px;
+  background-image: url(./img/game2.png);
+  background-repeat: no-repeat;
+  background-position: 100% calc(100% - 198px);
+}
+.card-game__card_game2:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.card-game__card_game3 {
+  height: 473px;
+  width: 378px;
+  background-color: #FFFFFF;
+  grid-column: span 4;
+  border-radius: 30px;
+  background-image: url(./img/game3.png);
+  background-repeat: no-repeat;
+  background-position: 100% calc(100% - 159px);
+}
+.card-game__card_game3:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.card-game__card_game4 {
+  height: 551px;
+  width: 378px;
+  background-color: #FFFFFF;
+  grid-column: span 4;
+  border-radius: 30px;
+  margin-top: -39px;
+  background-image: url(./img/game4.png);
+  background-repeat: no-repeat;
+  background-position: 100% calc(100% - 237px);
+}
+.card-game__card_game4:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.card-game__card_game5 {
+  height: 512px;
+  width: 378px;
+  background-color: #FFFFFF;
+  grid-column: span 4;
+  border-radius: 30px;
+  background-image: url(./img/game5.png);
+  background-repeat: no-repeat;
+  background-position: 100% calc(100% - 198px);
+}
+.card-game__card_game5:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.card-game__card_game6 {
+  height: 551px;
+  width: 378px;
+  background-color: #FFFFFF;
+  grid-column: span 4;
+  border-radius: 30px;
+  margin-top: -39px;
+  background-image: url(./img/game6.png);
+  background-repeat: no-repeat;
+  background-position: 100% calc(100% - 237px);
+}
+.card-game__card_game6:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.card-game__card_namber {
+  color: #202027;
+  margin-top: 354px;
+  margin-left: 32px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 52.58px;
+  background: rgb(247, 247, 247);
+  width: 108px;
+  padding: 8px 16px 10px 16px;
+}
+.card-game__card_name {
+  font-size: 32px;
+  line-height: 39px;
+  padding-top: 16px;
+  color: #202027;
+  text-decoration: none;
+  padding-left: 32px;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */

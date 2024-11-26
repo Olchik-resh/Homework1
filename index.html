@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>#blok1 {scroll-behavior: smooth;}</style>
 <!--БЭМ
     Блок body, header, scrol-bar, card-game
 
@@ -22,12 +23,12 @@
     <div class="header center">
         <H1 class="header__text-big">Добро пожаловать <br> на мой сайт мини-игр</H1>
         <p class="header__text-subtitle">Тебе предстоит пройти несколько увлекательных игр.<br> Если готов, нажимай <span class="header__text-font">«Поехали!»</span> и <span class="header__text-font">приступай</span>.</p>
-        <button class="header__button">Поехали!</button> 
+        <button id="btn1" type="button" class="header__button" href="#blok1">Поехали!</button> 
     </div>
 
     <div class="scrol-bar"></div>  
 
-    <section class="card-game center">
+    <section id="block1" class="card-game center">
         <h2 class="card-game__text-top">Об играх</h2>
         <p class="card-game__text-susubtitle">В моей коллекции представлено 6 игр на разные темы.<br> Игры несложные — в них может поиграть каждый.<br>
             Все игры доступны для пользования.</p>
